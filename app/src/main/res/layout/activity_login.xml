@@ -54,6 +54,7 @@
                     android:layout_height="wrap_content"
                     android:text="Email address"
                     android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
                     android:id="@+id/Emailtxt"
                     android:textSize="16sp"
                     android:textStyle="bold" />
@@ -70,6 +71,7 @@
                     android:layout_height="wrap_content"
                     android:text="Password"
                     android:layout_marginTop="20dp"
+                    android:layout_marginBottom="5dp"
                     android:id="@+id/Passwordtxt"
                     android:textSize="16sp"
                     android:textStyle="bold" />
@@ -86,7 +88,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
                     android:layout_marginTop="40dp"
-                    android:text="Get Started"
+                    android:text="Sign In"
                     android:textSize="18sp"
                     app:cornerRadius="17dp"/>
 
