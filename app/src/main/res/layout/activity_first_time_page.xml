@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FirstTimePage">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/background" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fly Like a Bird"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"
+                android:layout_marginStart="39dp"
+                android:layout_marginEnd="39dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Explore new world with us and let
+yourself get an amazing experiences"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:letterSpacing="0.1"
+                android:layout_marginBottom="50dp"
+                android:layout_marginStart="39dp"
+                android:layout_marginEnd="39dp"/>
+
+            <Button
+                android:id="@+id/btnSignUp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Sign Up"
+                android:textSize="18dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="44dp"
+                android:layout_marginEnd="44dp"
+                app:cornerRadius="17dp"/>
+
+            <Button
+                style="@style/Widget.Material3.Button.OutlinedButton"
+                android:id="@+id/btnSignIn"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Sign In"
+                android:textSize="18dp"
+                android:textColor="@color/white"
+                android:layout_marginBottom="50dp"
+                android:layout_marginStart="44dp"
+                android:layout_marginEnd="44dp"
+                app:cornerRadius="17dp"
+                app:strokeWidth="2dp"
+                app:strokeColor="#5C40CC"/>
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>
