@@ -6,6 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#FAFAFA"
+    android:gravity="center_vertical"
     tools:context=".RegisterAcitvity">
 
     <TextView
@@ -44,10 +46,86 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/custom_input"/>
+                android:background="@drawable/custom_input"
+                android:hint="\n"
+                android:padding="5dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email Address"
+                android:fontFamily="sans-serif-medium"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_input"
+                android:hint="\n"
+                android:padding="5dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                android:fontFamily="sans-serif-medium"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_input"
+                android:hint="\n"
+                android:padding="5dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hobby"
+                android:fontFamily="sans-serif-medium"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_input"
+                android:hint="\n"
+                android:padding="5dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="40dp"
+                android:text="Get Started"
+                android:textSize="18sp"
+                app:cornerRadius="17dp"/>
 
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/btnTerms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="24dp"
+        android:clickable="true"
+        android:text="Terms and Conditions"
+        android:textAlignment="center"
+        android:textColor="#9698A9"
+        android:textSize="16sp" />
 
 </LinearLayout>
