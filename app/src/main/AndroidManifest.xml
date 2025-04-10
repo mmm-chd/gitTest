@@ -13,7 +13,10 @@
         android:theme="@style/Theme.GitTest"
         tools:targetApi="31">
         <activity
-            android:name=".RegisterAcitvity"
+            android:name=".FirstTimePage"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterPage"
             android:exported="false" />
         <activity
             android:name=".LoginPage"
